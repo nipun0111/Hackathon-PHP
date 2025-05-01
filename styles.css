@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+p1{
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e1e3f, #3a0ca3, #7209b7);
+    color: white;
+  }
+header {
+    background: linear-gradient(135deg, #1e1e3f, #3a0ca3, #7209b7);
+    color: white;
+    padding: 10px 0;
+    }
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background-size: fill;
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #621ee9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #22005d;
+}
+input,select{ 
+    text-align: center; 
+}
+.about-section, .schedule-section, .register-section {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about-section h2, .schedule-section h2, .register-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    }
+.about-us, .schedule, .contact {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about-us h2, .schedule h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #621ee9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #22005d;
+}
+
+#registrationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+#registrationForm label {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #f9f9f9;
+}
+
+#registrationForm input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#registrationForm button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #621ee9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#registrationForm button:hover {
+    background-color: #22005d;
+}
+
+#successMessage {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #4CAF50;
+}
+.bg{
+    margin: 10px;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin-top: 30px;
+  }
+
+  .login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 320px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffecec;
+  }
+
+  .login-box input[type="email"],
+  .login-box input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+
+  .login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4edb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .login-box button:hover {
+    background: #da3ac5;
+  }
+
+  header nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .error {
+    color: #ffbaba;
+    background: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .sel{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .subscribe-form{
+    position: relative;
+    width: 100%;
+}
+.subscribe-form input{
+    background:#fddee9;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    height: 47px;
+    outline: none;
+    padding: 10px 120px 10px 20px;
+    width: 100%;
+}
+.subscribe-button input.button{
+    background: #cf145a;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    height: 47px;
+    line-height: 47px;
+    outline: none;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    text-transform: capitalize;
+    top: 0;
+    transition: all .3s linear;
+    width: 90px;
+}
+p3{
+    font-size: 15px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-size: 20px;
+    color: black;
+}  
